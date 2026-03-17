@@ -12,6 +12,19 @@ font-family: Arial, sans-serif;
 background:black;
 color:white;
 text-align:center;
+#signature-overlay {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 80px;
+font-weight: bold;
+color: rgba(255,0,0,0.08);
+letter-spacing: 5px;
+pointer-events: none;
+z-index: 1;
+white-space: nowrap;
+}         
 }
 
 /* LOGO */
@@ -133,6 +146,7 @@ color:silver;
 
 <div class="hero">
 <h1>Designs by J</h1>
+<div id="signature-overlay">Designs by J</div>  
 <p>Affordable Professional Websites</p>
 </div>
 
